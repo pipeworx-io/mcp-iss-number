@@ -2,13 +2,13 @@
 
 iss-number MCP — wraps StupidAPIs (requires X-API-Key)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `iss_number_generate` | Generate a unique number based on the International Space Station\'s current orbital location. Returns a computed integer derived from ISS coordinates. Use when you need a space-derived identifier or deterministic random seed. |
+| `iss_number_generate` | Fetch the ISS's live orbital coordinates and return a number computed from them. No inputs required. Returns a single integer that changes with the ISS position — useful as a space-themed novelty value, not a stable seed. |
 
 ## Quick Start
 
@@ -24,7 +24,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -48,7 +48,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
