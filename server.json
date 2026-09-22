@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/iss-number",
   "title": "Iss Number",
-  "description": "iss-number MCP \u2014 wraps StupidAPIs (requires X-API-Key)",
-  "version": "0.1.0",
+  "description": "iss-number MCP — wraps StupidAPIs (keyless — no credential needed)",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/iss-number",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-iss-number",
