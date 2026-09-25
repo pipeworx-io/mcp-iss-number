@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-iss-number",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "iss-number MCP — wraps StupidAPIs (keyless — no credential needed)",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-d94fa05e1f560df0f1f338fb2ce58a1faeef9e589105ac63da2df9c9fc6be124",
+    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
   }
 }
